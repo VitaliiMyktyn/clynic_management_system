@@ -1,0 +1,73 @@
+/* NavbarComponent.css */
+.navbar {
+	background-color: #f8f9fa;
+}
+
+.navbar-brand {
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.navbar-brand-img {
+	margin-right: 10px;
+}
+
+.navbar-toggler-icon {
+	border: none;
+}
+
+.navbar-toggler {
+	border: none;
+	background-color: #007bff;
+}
+
+.navbar-toggler:focus {
+	outline: none;
+}
+
+.nav-link {
+	color: #ffffff;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+}
+
+.btn-dark {
+	background-color: #343a40;
+	border-color: #343a40;
+	color: #fff;
+}
+
+.btn-link {
+	color: #ffffff;
+	padding: 0;
+}
+
+.btn-link:hover {
+	text-decoration: underline;
+}
+
+/* Move navigation links to the right */
+.ml-auto {
+	margin-left: auto;
+}
+
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+	.navbar-brand-img {
+		margin-right: 0;
+	}
+
+	.navbar-toggler {
+		margin-right: 0;
+	}
+
+	.ml-auto {
+		margin-left: 0;
+	}
+}

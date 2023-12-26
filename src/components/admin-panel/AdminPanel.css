@@ -1,0 +1,91 @@
+/* AdminPanel.css */
+
+.container {
+	padding: 20px;
+}
+
+.form-container {
+	max-width: 800px;
+	margin: auto;
+	background-color: #f8f9fa;
+	border: 1px solid #ced4da;
+	border-radius: 8px;
+	padding: 20px;
+	margin-top: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for section dividers */
+.form-divider {
+	border-top: 1px solid #ced4da;
+	margin: 20px 0;
+}
+
+.form-header {
+	margin-bottom: 20px;
+	color: #007bff; /* Blue color for form headers */
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.form-label {
+	display: block;
+	margin-bottom: 8px;
+	color: #495057; /* Dark gray color for labels */
+	font-size: 16px;
+}
+
+.form-control {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ced4da;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+	font-size: 16px;
+}
+
+.btn-primary:hover {
+	background-color: #0056b3;
+	border-color: #0056b3;
+}
+
+.login-error {
+	color: #dc3545;
+	margin-top: 10px;
+}
+
+/* Style for tables */
+.table {
+	margin-top: 20px;
+}
+
+.table thead th {
+	background-color: #007bff;
+	color: #fff;
+}
+
+.table-bordered th,
+.table-bordered td {
+	border: 1px solid #ced4da;
+}
+
+/* Additional styling for buttons */
+.btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+}
+
+.btn-primary:hover {
+	background-color: #0056b3;
+	border-color: #0056b3;
+}

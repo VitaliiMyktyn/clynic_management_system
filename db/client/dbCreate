@@ -1,0 +1,25 @@
+CREATE TABLE public.doctors (
+    doctor_id integer NOT NULL,
+    full_name character varying(255) NOT NULL,
+    specialization character varying(255) NOT NULL
+);
+CREATE TABLE public.admin_user (
+    user_id integer NOT NULL,
+    username character varying(50) NOT NULL,
+    password character varying(255) NOT NULL
+);
+
+CREATE TABLE public.appointments (
+    appointment_id integer NOT NULL,
+    first_name character varying(50) NOT NULL,
+    last_name character varying(50) NOT NULL,
+    middle_name character varying(50),
+    date_of_birth date NOT NULL,
+    email_address character varying(255) NOT NULL,
+    address character varying(255) NOT NULL,
+    insurance_number character varying(20),
+    phone_number character varying(15) NOT NULL,
+    doctor_id integer NOT NULL,
+    appointment_date date NOT NULL,
+    appointment_time time without time zone
+);

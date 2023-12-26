@@ -1,0 +1,41 @@
+/* Add any custom styles for the service cards and slider here */
+.services-container {
+	padding: 20px 0;
+}
+
+.service-card {
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 20px;
+	margin: 10px;
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+	font-size: 36px;
+	color: #007bff;
+	margin-bottom: 15px;
+}
+
+.service-title {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.service-description {
+	font-size: 14px;
+	color: #777;
+	margin-bottom: 20px;
+}
+
+.registration-container {
+	padding: 10px;
+}
+
+.heading-text {
+	margin-bottom: 10px;
+	color: #007bff; /* Blue color for form headers */
+	font-size: 38px;
+	font-weight: bold;
+}
